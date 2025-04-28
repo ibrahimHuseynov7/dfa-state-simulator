@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE-specific files (PyCharm)
+.idea/
+
+# Other unwanted files
+*.log
+*.bak
+*.swp
+.DS_Store
