@@ -1,4 +1,4 @@
-
+#This class uses graphviz to visualize our DFAs
 from graphviz import Digraph
 
 

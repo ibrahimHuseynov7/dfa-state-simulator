@@ -1,4 +1,4 @@
-
+# This class is responsible for simulating DFA by indicating start_states, alphabet, transitions and accept_states
 def simulate_dfa(dfa, input_str):
     current_state = dfa['start_state']
     for symbol in input_str:

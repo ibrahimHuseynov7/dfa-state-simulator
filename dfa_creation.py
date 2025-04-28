@@ -1,5 +1,5 @@
 
-
+# This class is responsible for creating DFA
 def create_dfa_list():
     dfa_list = []
 

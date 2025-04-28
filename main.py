@@ -4,12 +4,14 @@ from dfa_visualization import visualize_dfa
 from dfa_simulation import simulate_dfa
 
 
+# Allow user to select DFAs in the list
 def main():
     dfa_list = create_dfa_list()
     print("Select a DFA to visualize and test:")
     for dfa in dfa_list:
         print(dfa['description'])
 
+# Tests, visualizes and checks input string
     while True:
         try:
             choice = int(input("\nEnter the DFA number (1-10): "))
